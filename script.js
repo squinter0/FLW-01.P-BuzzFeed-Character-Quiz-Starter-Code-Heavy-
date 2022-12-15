@@ -30,20 +30,56 @@ function buzzfeedQuiz() {
 
 
    // task 7: create a conditional statement for the responses to Question 1 based on the user input.
-
+  if (userQ1 === "a") {
+     q1score = 1
+  }
+  else if (userQ1 === "b"){
+    q1score = 2
+  }
+  else if (userQ1 === "c"){
+    q1score = 3
+  }
+  else if (userQ1 === "d"){
+    q1score = 4
+  }
+    
 
 
 
     // task 8: create a conditional statement for the responses to Question 2 based on the user input.
+    if (userQ2 === "a") {
+      q2score = 1
+    }
+    else if (userQ2 === "b"){
+      q2score = 2
+    }
+    else if (userQ2 === "c"){
+      q2score = 3
+    }
+    else if (userQ2 === "d"){
+      q2score = 4
+    }
 
 
 
 
     // task 9: create a conditional statement for the responses to Question 3 based on the user input.
-
+    if (userQ3 === "a"){
+      q3score = 1
+    }
+    if (userQ3 === "b"){
+      q3score = 2
+    }
+    if (userQ3 === "c"){
+      q3score = 3
+    }
+    if (userQ3 === "d"){
+      q3score = 4
+    }
 
 
     // task 10: declare a variable for the total score of the quiz and set it equal to the sum of each question score.
+    let totalscore = q1score + q2score + q3score
 
 
 
