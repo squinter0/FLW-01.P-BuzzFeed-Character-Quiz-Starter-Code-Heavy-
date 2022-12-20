@@ -79,18 +79,29 @@ function buzzfeedQuiz() {
 
 
     // task 10: declare a variable for the total score of the quiz and set it equal to the sum of each question score.
-    let totalscore = q1score + q2score + q3score
+    let result = (q1score + q2score + q3score);
 
 
 
 
     // task 11: create a conditional statement for the result to the quiz based on the total score. Using string interpolation, display these to the page: the result, an image that corresponds and a message to go with it.
+if (result === 3 ){
+  displayResult.innerHTML = "You are totally Amy!"
+}
+
+if (result === 6 ){
+  displayResult.innerHTML = "You are totally Knuckles!"
+}
+if (result === 9 ){
+  displayResult.innerHTML = "You are totally Sonic!"
+}    
+if (result === 16 ){
+  displayResult.innerHTML = "You are totally Tails!"
+}  
 
 
 
 
-
-
-  }
+}
 
 };

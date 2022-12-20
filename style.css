@@ -32,6 +32,8 @@ a {
 
 .displayResult{
   text-align: center;
+  font-family: monospace;
+  font-size:50px;
 }
 
 img{
@@ -48,3 +50,4 @@ button {
   font-family: monospace;
   padding: 20px;
 }
+
